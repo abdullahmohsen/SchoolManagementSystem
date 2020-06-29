@@ -1,0 +1,7 @@
+﻿  Person.cpp
+  Project.cpp
+  Student.cpp
+  Teacher.cpp
+  Generating Code...
+Person.obj : error LNK2001: unresolved external symbol "private: static int Person::personsCount" (?personsCount@Person@@0HA)
+D:\Basic Programming Course\GitHub\Subject\Project\Debug\Project.exe : fatal error LNK1120: 1 unresolved externals
