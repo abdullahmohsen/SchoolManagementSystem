@@ -24,6 +24,11 @@ public:
 	void setMobile(string m);
 	string getMobile();
 
-	Person();
+	void displayInfo();
+
+	//Pure virtul method and abstract class
+	virtual void doTask() = 0;
+	
+	Person(string n);
 };
 

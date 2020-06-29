@@ -1,7 +1,13 @@
 ﻿  Person.cpp
   Project.cpp
+D:\Basic Programming Course\GitHub\Subject\Project\Project\Project.cpp(25,23): error C2512: 'TeachingAssistant': no appropriate default constructor available
+D:\Basic Programming Course\GitHub\Subject\Project\Project\TeachingAssistant.h(4,7): message : see declaration of 'TeachingAssistant'
   Student.cpp
+  Subject.cpp
   Teacher.cpp
+  TeachingAssistant.cpp
+D:\Basic Programming Course\GitHub\Subject\Project\Project\TeachingAssistant.cpp(12,1): error C2512: 'Teacher': no appropriate default constructor available
+D:\Basic Programming Course\GitHub\Subject\Project\Project\Teacher.h(3,7): message : see declaration of 'Teacher'
+D:\Basic Programming Course\GitHub\Subject\Project\Project\TeachingAssistant.cpp(12,1): error C2512: 'Student': no appropriate default constructor available
+D:\Basic Programming Course\GitHub\Subject\Project\Project\Student.h(3,7): message : see declaration of 'Student'
   Generating Code...
-Person.obj : error LNK2001: unresolved external symbol "private: static int Person::personsCount" (?personsCount@Person@@0HA)
-D:\Basic Programming Course\GitHub\Subject\Project\Debug\Project.exe : fatal error LNK1120: 1 unresolved externals

@@ -1,6 +1,6 @@
 #pragma once
 #include "Person.h"
-class Student : public Person
+class Student : public virtual Person
 {
 private:
 	int grade;
@@ -11,5 +11,9 @@ public:
 
 	void setGPA(double g);
 	double getGPA();
+
+	void displayInfo();
+	void doTask();
+	Student(string n);
 };
 

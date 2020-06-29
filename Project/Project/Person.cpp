@@ -2,14 +2,22 @@
 #include <iostream>
 using namespace std;
 
+int Person::personsCount = 0;
+
 int Person::getID()
 {
 	return id;
 }
 
-Person::Person()
+void Person::displayInfo()
+{
+	cout << id << ' ' << name << ' ' << email << ' ' << address << ' ' << mobile << endl;
+}
+
+Person::Person(string n)
 {
 	cout << "Person Constructor" << endl;
+	name = n;
 	personsCount++;
 	id = personsCount;
 }

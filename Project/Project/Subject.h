@@ -21,7 +21,7 @@ public:
 	//Binary Operator Overloading
 	Subject operator +(Subject s2);
 
-	//Method Overloading
+	//Method Overloading (Compile Time)
 	Subject();
 	Subject(string n, int sm, int fm);
 };

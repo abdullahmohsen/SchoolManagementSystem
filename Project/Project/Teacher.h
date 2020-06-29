@@ -1,6 +1,6 @@
 #pragma once
 #include "Person.h"
-class Teacher : public Person
+class Teacher : public virtual Person
 {
 private:
 	double salary;
@@ -13,6 +13,8 @@ public:
 	void setWorkingHours(int w);
 	int getWorkingHours();
 
-	Teacher();
+	void displayInfo();
+	void doTask();
+	Teacher(string n);
 };
 

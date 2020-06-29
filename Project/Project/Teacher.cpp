@@ -22,7 +22,20 @@ int Teacher::getWorkingHours()
 	return workingHours;
 }
 
-Teacher::Teacher()
+//Method Overriding (Runtime)
+void Teacher::displayInfo()
+{
+	Person::displayInfo();
+	cout << salary << ' ' << workingHours << endl;
+}
+
+//Pure virtul method and abstract
+void Teacher::doTask()
+{
+	cout << "Do Task" << endl;
+}
+
+Teacher::Teacher(string n) : Person(n)
 {
 	cout << "Teacher Constructor" << endl;
 }

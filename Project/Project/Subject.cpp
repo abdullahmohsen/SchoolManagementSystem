@@ -40,15 +40,15 @@ Subject Subject::operator+(Subject s2)
 	return result;
 }
 
-
+//Method OverLoading (Compile Time)
 Subject::Subject()
 {
 }
 
-Subject::Subject(string n, int sm, int fm) //: name(n), studentMarks(sm), fullMark(fm)
+Subject::Subject(string n, int sm, int fm) : name(n), studentMarks(sm), fullMark(fm)
 {
-	name = n;
+	/*name = n;
 	studentMarks = sm;
-	fullMark = fm;
+	fullMark = fm;*/
 }
 
