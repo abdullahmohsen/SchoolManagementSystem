@@ -11,7 +11,7 @@ int main()
     cout << t.getID() << endl;
     t.setName("Abdallah");
     t.setAddress("Giza");
-    t.setEmail("abdulla@gmail.com");
+    t.setEmail("abdullah@gmail.com");
     t.setMobile("01008831065");
     t.setSalary(1000);
     t.setWorkingHours(24);

@@ -11,6 +11,9 @@ public:
 	string getResearchSubject();
 
 	void doTask();
+	using Teacher::doTask;
+	using Student::doTask;
+	
 	void displayInfo();
 	TeachingAssistant(string n);
 };
