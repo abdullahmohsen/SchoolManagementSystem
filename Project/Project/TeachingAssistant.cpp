@@ -24,7 +24,8 @@ void TeachingAssistant::displayInfo()
 	cout << researchSubject << endl;
 }
 
-TeachingAssistant::TeachingAssistant(string n) : Person(n)
+//Constructor of TeachingAssistant
+TeachingAssistant::TeachingAssistant(string n) : Person(n), Teacher(n), Student(n)
 {
 	cout << "Teaching Assistant Constructor" << endl;
 }

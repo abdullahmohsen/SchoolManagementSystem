@@ -35,6 +35,7 @@ void Student::doTask()
 	cout << "Do Task" << endl;;
 }
 
+//Constructor of Student
 Student::Student(string n) : Person(n)
 {
 	cout << "Student Constructor" << endl;

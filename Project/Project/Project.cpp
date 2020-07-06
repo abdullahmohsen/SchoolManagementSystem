@@ -18,12 +18,17 @@ int main()
     t.displayInfo();
     t.doTask();
 
+    cout << endl;
+
     Student s("Mohamed");
-    cout << s.getID();
+    cout << s.getID() << endl;
     s.doTask();
 
-    TeachingAssistant ta;
+    cout << endl;
 
+    TeachingAssistant ta("Mohsen");
+    ta.setResearchSubject("Math");
+    ta.displayInfo();
 
     return 0;
 }

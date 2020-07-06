@@ -11,8 +11,7 @@ public:
 	string getResearchSubject();
 
 	void doTask();
-	using Teacher::doTask;
-	using Student::doTask;
+	using Teacher::doTask; //For Solving the Ambiguity Problem
 	
 	void displayInfo();
 	TeachingAssistant(string n);
